@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
 
-import es.age.apps.expandablelist.DummyItemGenerator;
+import es.age.apps.expandablelist.dummy.DummyItemGenerator;
 import es.age.apps.expandablelist.R;
 import es.age.apps.expandablelist.adapters.ExpandableListViewAdapter;
 

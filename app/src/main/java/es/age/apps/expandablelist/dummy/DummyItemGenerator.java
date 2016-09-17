@@ -1,9 +1,7 @@
-package es.age.apps.expandablelist;
+package es.age.apps.expandablelist.dummy;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by adricacho on 16/9/16.

@@ -12,9 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import es.age.apps.expandablelist.DummyItem;
+import es.age.apps.expandablelist.dummy.DummyItem;
 import es.age.apps.expandablelist.R;
 
 /**

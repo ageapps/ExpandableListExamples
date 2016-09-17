@@ -17,9 +17,8 @@ import com.bignerdranch.expandablerecyclerview.ParentViewHolder;
 import com.bignerdranch.expandablerecyclerview.model.ParentListItem;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import es.age.apps.expandablelist.DummyItem;
+import es.age.apps.expandablelist.dummy.DummyItem;
 import es.age.apps.expandablelist.R;
 
 /**

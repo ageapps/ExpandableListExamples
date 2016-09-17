@@ -10,6 +10,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import es.age.apps.expandablelist.dummy.DummyItemGenerator;
 import es.age.apps.expandablelist.fragments.ListViewFragment;
 import es.age.apps.expandablelist.fragments.RecyclerViewFragment;
 

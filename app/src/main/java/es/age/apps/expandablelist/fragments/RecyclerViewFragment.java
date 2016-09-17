@@ -12,7 +12,8 @@ import android.widget.Toast;
 
 import com.bignerdranch.expandablerecyclerview.ExpandableRecyclerAdapter;
 
-import es.age.apps.expandablelist.DummyItemGenerator;
+import es.age.apps.expandablelist.adapters.DividerItemDecoration;
+import es.age.apps.expandablelist.dummy.DummyItemGenerator;
 import es.age.apps.expandablelist.R;
 import es.age.apps.expandablelist.adapters.ExpandableRecyclerViewAdapter;
 
@@ -38,6 +39,10 @@ public class RecyclerViewFragment extends Fragment {
         recycler.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         recycler.setAdapter(adapter);
+
+        recycler.setHasFixedSize(true);
+
+        recycler.addItemDecoration(new DividerItemDecoration(getActivity()));
 
         adapter.setExpandCollapseListener(new ExpandableRecyclerAdapter.ExpandCollapseListener() {
             @Override

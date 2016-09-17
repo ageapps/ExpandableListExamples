@@ -1,10 +1,12 @@
-package es.age.apps.expandablelist;
+package es.age.apps.expandablelist.dummy;
 
 
 import com.bignerdranch.expandablerecyclerview.model.ParentListItem;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import es.age.apps.expandablelist.R;
 
 /**
  * Created by adricacho on 16/9/16.
