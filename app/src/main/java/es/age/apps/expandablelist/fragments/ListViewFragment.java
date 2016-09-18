@@ -37,8 +37,8 @@ public class ListViewFragment extends Fragment {
         listView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
             public boolean onGroupClick(ExpandableListView expandableListView, View view, int i, long l) {
-
-                Toast.makeText(getActivity(), DummyItemGenerator.listItems.get(i).getTitle() + " Expanded", Toast.LENGTH_SHORT).show();
+                String state = expandableListView.isGroupExpanded(i) ?   " Collapsed" : " Expanded";
+                Toast.makeText(getActivity(), DummyItemGenerator.listItems.get(i).getTitle() + state, Toast.LENGTH_SHORT).show();
                 return false;
             }
         });
