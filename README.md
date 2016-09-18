@@ -1,6 +1,6 @@
 # ExpandableListExamples
 
-App with an examples of Expandable Lists .
+App with examples of Expandable Lists .
 
 - Recyclerview
 - ExpandableListView
